@@ -1,0 +1,34 @@
+{
+  "name": "mernbackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon -w src/app.js -e js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "epress": "0.0.1-security",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "mongoose": "^6.0.12"
+  },
+  "engines": {
+    "node": "0.10.41",
+    "npm": "1.4.29"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anu8900/myweb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anu8900/myweb/issues"
+  },
+  "homepage": "https://github.com/anu8900/myweb#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
